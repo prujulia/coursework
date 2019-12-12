@@ -1,14 +1,14 @@
 #include "Header.h"
 
 Button::Button()
-	: x(0), y(0), buttonSrc("On_Button2.png") { }
+	: x(0), y(0), buttonSrc("./Assets/images/On_Button2.png") { }
 
 Button::Button(const int _x, const int _y, string _buttonSrc, string _buttonFlag, string _buttonColor)
 
 		: x(_x), y(_y), buttonSrc(_buttonSrc), buttonFunctionFlag(_buttonFlag), buttonColor(_buttonColor){ }
 
 CheckBox::CheckBox()
-		:x(0), y(0), checkBoxOnSrc("CheckBoxON.png"), checkBoxOffSrc("CheckBoxOFF.png") { }
+		:x(0), y(0), checkBoxOnSrc("./Assets/images/CheckBoxON.png"), checkBoxOffSrc("./Assets/images/CheckBoxOFF.png") { }
 
 CheckBox::CheckBox(const int _x, const int _y, string _checkBoxOnSrc, string _checkBoxOffSrc, string _checkBoxFlag)
 		:x(_x), y(_y), checkBoxOnSrc(_checkBoxOnSrc), checkBoxOffSrc(_checkBoxOffSrc), checkBoxFunctionFlag(_checkBoxFlag){ }

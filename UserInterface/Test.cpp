@@ -2,13 +2,13 @@
 
 int main(int argc, char* argv[])
 {
-	const string redButtonSrc = "RedButton.png";
-	const string greenButtonSrc = "GreenButton.png";
-	const string blueButtonSrc = "BlueButton.png";
-	const string saveSrc = "Save.png";
-	const string loadSrc = "Load.png";
-	const string checkBoxOnSrc = "CheckBoxON.png"; const string checkBoxOffSrc = "CheckBoxOFF.png";
-	const string canvasSrc = "canvas.png";
+	const string redButtonSrc = "./Assets/images/RedButton.png";
+	const string greenButtonSrc = "./Assets/images/GreenButton.png";
+	const string blueButtonSrc = "./Assets/images/BlueButton.png";
+	const string saveSrc = "./Assets/images/Save.png";
+	const string loadSrc = "./Assets/images/Load.png";
+	const string checkBoxOnSrc = "./Assets/images/CheckBoxON.png"; const string checkBoxOffSrc = "./Assets/images/CheckBoxOFF.png";
+	const string canvasSrc = "./Assets/images/canvas.png";
 
 	Manager manager;
 

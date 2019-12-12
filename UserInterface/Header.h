@@ -46,7 +46,7 @@ public:
 	vector<Button> buttons;
 	vector<CheckBox> checkboxes;
 
-	Mat interfaceImg = imread("Interface.png", IMREAD_UNCHANGED);
+	Mat interfaceImg = imread("./Assets/images/Interface.png", IMREAD_UNCHANGED);
 	Mat backup;
 	Mat canvas;
 
