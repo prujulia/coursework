@@ -8,6 +8,10 @@
 using namespace std;
 using namespace cv;
 
+/*!
+\brief Class Button
+*/
+
 class Button
 {
 private:
@@ -24,6 +28,11 @@ public:
 	Rect rectButton = Rect(x, y, imgButton.cols, imgButton.rows);
 };
 
+/*!
+\brief Class CheckBox
+*/
+
+
 class CheckBox
 {
 private:
@@ -39,6 +48,12 @@ public:
 	Mat imgCheckBox = imread(checkBoxOnSrc, IMREAD_UNCHANGED);
 	Rect rectCheckBox = Rect(x, y, imgCheckBox.cols, imgCheckBox.rows);
 };
+
+/*!
+\brief Class Manager
+
+Provides interaction with buttons, checkboxes and canvas
+*/
 
 class Manager
 {
