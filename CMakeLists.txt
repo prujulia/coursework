@@ -1,2 +1,6 @@
-cmake_minimum_required (VERSION 2.6) 
-add_executable(Source Source.cpp)
+cmake_minimum_required(VERSION 3.6)
+project(UserInterface)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories("./Userinterface")

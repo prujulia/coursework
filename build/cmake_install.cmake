@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Skynet/Documents/Visual Studio 2015/UserInterface/UserInterface
+# Install script for directory: C:/Users/Skynet/Documents/Visual Studio 2015/UserInterface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/UserInterface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Skynet/Documents/Visual Studio 2015/UserInterface/UserInterface/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Skynet/Documents/Visual Studio 2015/UserInterface/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
